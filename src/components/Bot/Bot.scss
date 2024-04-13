@@ -1,0 +1,33 @@
+.bot-main{
+    
+    margin-bottom: 40px;
+    .box{
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+        gap: 20px;
+        padding-left: 16px;
+        
+        .icon{
+            .img-box{
+                width:40px;
+                height: 40px;
+                img{
+                    width: 100%;
+                    height: 100%;
+
+                }
+            }
+        }
+        .bot-text{
+            background-color: rgb(240, 237, 237);
+            
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            p{
+             padding-inline: 8px;
+            }
+        }
+    }
+}

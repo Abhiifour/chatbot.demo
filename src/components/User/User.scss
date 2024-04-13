@@ -1,0 +1,31 @@
+.user-main{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 16px;
+    height: 40px;
+    gap: 20px;
+    padding-left: 10px;
+    .icon{
+        .img-box{
+            width:40px;
+            height: 40px;
+            img{
+                width: 100%;
+                height: 100%;
+
+            }
+        }
+    }
+    .box{
+        background-color:rgb(184, 230, 249);
+        
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        p{
+         padding-inline: 8px;
+        }
+    }
+}

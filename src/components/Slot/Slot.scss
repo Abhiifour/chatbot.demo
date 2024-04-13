@@ -1,0 +1,25 @@
+.slot-main{
+    width: 90%;
+    margin-inline: auto;
+    .box-box{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        .head{
+          font-size: 1.1rem;
+        }
+        .data{
+            
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+    }
+}

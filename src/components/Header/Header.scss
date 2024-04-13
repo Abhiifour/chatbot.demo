@@ -1,0 +1,32 @@
+.header{
+    height: 60px;
+    margin-top: 6px;
+    padding-block: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    max-width: 350px;
+    .header-main{
+        display: flex;
+        justify-content: space-between;
+        .logo{
+            cursor: pointer;
+            height: 60px;
+            margin-inline: 20px;
+            .img-out{
+                height: 100%;
+                img{
+                 width: 100%;
+                 height: 100%;
+                }
+            }
+        }
+        .icon{
+            display: flex;
+            margin-right: 20px;
+            align-items: center;
+            .icon-box{
+             font-size: 1.6rem;
+             
+            }
+        }
+    }
+}
